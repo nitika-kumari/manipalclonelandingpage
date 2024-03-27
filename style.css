@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ .topbar ul {
+	padding-right: 140px;
+}
+.topbar ul li a{
+	color: black;
+}
+.icon{
+     font-size:25px !important;
+     color:#4CBB17;
+     padding-top: 8px;
+}
+.top-right{
+	position: absolute;
+	border:1px solid black;
+	margin-top: 5px;
+}
+.bg-img{
+	background-image: url(https://manipalpokhara.edu.np/wp-content/uploads/2023/03/manipal_home-new.png);
+	height: 600px;
+	background-position: center;
+	position: relative;
+
+
+}
+.bottombar{
+	color: black;
+	background-color: rgba(255,255,255,0.46);
+	position: absolute;
+	width: 100%;
+	height: 80px;
+
+
+}
+
+
+/*}
+.container {
+  position: absolute;
+  width: 100%;
+
+}*/
+.text-block {
+  position: absolute;
+  top:180px;
+  left: 180px;
+  background-color:rgba(77,181,69,.9) ;
+  color: white;
+  width: 700px;
+  height: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+h1{
+	font-size: 60px!important;
+}
+
+  span{
+  	font-size: 70px;
+  	font-weight: bolder;
+
+}
+.padd{
+	padding-right: 130px;
+	padding-top: 13px;
+
+}
+.bla{
+	color: black!important;
+	font-size: 20px!important;
+}
+.text{
+	position: absolute;
+	width: 200px;
+	height: 85px;
+	background-color: white;
+	color: black;
+	left: 150px;
+}
+.logo{
+	width: 200px;
+	height: 250px;
+	padding-bottom: 150px;
+
+	}
+.mani{
+	padding-bottom: 50px;
+}
+.study{
+	width: 220px;
+	height: 180px;
+}
+.hello{
+	padding: 49px;
+}
+.clg{
+	width: 580px;
+	height: 450px;
+
+}
+.bgimage{
+	background-image: url(https://thehimalayantimes.com/uploads/imported_images/wp-content/uploads/2018/05/Manipal-Teaching-Hospital-01.jpg);
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-top: 300px;
+}
+.letter{
+  position:absolute;
+  top:-120px;
+  right:0;
+  bottom: 10px;
+  background-color:black ;
+  color: white;
+  width: 750px;
+  height: 650px;
+ 
+ }
+ .big{
+ 	display: inline-block;
+
+ }
+  .big::first-letter {
+  font-size: 600%;
+ font-weight: bolder;
+
+}
+
+ .container2{
+ 	padding-top: 200px;
+ }
+ .container3{
+ 	padding-top: 200px;
+
+ }
+ .container1{
+ 	padding-top: 0px;
+ }
+ 
+ .img2{
+ 	width: 310px;
+ 	height: 205px;
+ 
+ 	
+
+ }
+  .img3{
+ 	width: 310px;
+ 	height: 200px;
+ 
+ 	
+
+ }
+  .img4{
+ 	width: 310px;
+ 	height: 205px;
+ 	
+
+ }
+  .img5{
+ 	width: 470px;
+ 	height: 295px;
+ 	padding-top: 20px;
+ 	
+
+ }
+  .img6{
+ 	width: 472px;
+ 	height: 100px;
+ 	padding-top: 20px;
+
+ }
+  .image1{
+ 	max-width: 350px;
+ 	height: 563px;
+
+ }
+ .card{
+ 	border:none;
+ 	transition: all .5s;
+ }
+ .card:hover{
+  transform: skewX(2deg);
+}
+ .pic{
+	background-image: url(https://manipalpokhara.edu.np/wp-content/uploads/2023/03/manipal_home-new.png);
+	height: 500px;
+	background-position: center;
+	position: relative;
+ }
+ .text-block1 {
+  position: absolute;
+  top:0;
+  left: 0px;
+  background-color:rgba(77,181,69,.6) ;
+  color: white;
+  width: 310px;
+  height: 500px;
+  padding-top: 250px;
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
